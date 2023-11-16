@@ -4,6 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class Model {
 
+        @SerializedName("name")
         private String name; //name para el json
         @SerializedName("img") //thumbnail del json
         private String img; //thumbnailUrl del json

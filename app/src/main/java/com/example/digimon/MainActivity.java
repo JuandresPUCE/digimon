@@ -19,7 +19,8 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static String apiUrl = "https://digimon-api.vercel.app/api/digimon";
+    //public static String apiUrl = "https://digimon-api.vercel.app/api/digimon";
+    public static String apiUrl = "https://digimon-api.vercel.app/api/";
     private RecyclerView rcvMain;
     private List<Model> digimonList;
 
